@@ -1,0 +1,131 @@
+.content{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    padding: 38px 39px;
+    padding: 10px 15px 20px 30px;
+    padding-top: 10px;
+    border: 3px solid #CDDC39;
+    margin: 20px;
+    margin: 20px 30px;
+    margin: 10px 15px 20px 30px;
+}
+
+
+
+/* sqaure */
+
+.sqaure{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+
+
+
+.intro{
+    margin: 20px;
+    padding: 15px;
+    border-radius: 7px;
+    border:1px solid rgb(138, 138, 138);
+    background-color: #8a8a8a;
+}
+
+
+.intro > h1{
+    margin-bottom: 30px;
+}
+
+
+
+.bg-image{
+    background-image: url(../imgs/image.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; /* width background-size: contain */
+    background-color: #dfdfdf;
+    color: white;
+    padding: 30px;
+    
+    background-attachment: fixed;
+}
+
+
+
+
+.parent{
+    height: 300px;
+    width: 100%;
+    border: 1px  solid black;
+
+    position: relative;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    border: 1px  solid black;
+    position: absolute;
+}
+
+.c1{
+    background-color: blue;
+    z-index: 1;
+}
+
+.c2{
+    background-color: red;
+    z-index: 2;
+}
+
+
+
+.action-btn{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+
+
+.list-user{
+    height: 96px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.user{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+}
+
+.user > .status{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(176, 176, 176);
+    border: 3px solid white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.user > .status.connected{
+    background-color: #4CAF50;
+}

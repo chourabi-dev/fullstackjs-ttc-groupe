@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+
+.row{
+    display: flex;
+}
+
+
+.col-12{
+    width: 100%;
+}
+
+
+.col-1{
+    width: 8.333333%;
+}
+
+.col-2{
+    width: 16.666666%;
+}
+
+
+.col-3{
+    width: 25%;
+}
+
+
+.col-4{
+    width: 33.33333333%;
+}
+
+
+.col-5{
+    width: 41.6666666666%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/******** TP *************/
+
+nav{
+    background-color: #2196F3;
+}
+.nav-link{
+    width: 80px;
+    text-align: center;
+    padding: 15px 8px;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link.active{
+    background-color: white;
+}
+
+.nav-link.active > a{
+    color: #2196F3;
+    font-weight: bold;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+
+header{
+    background-image: url(https://wallpapers.com/images/featured/beautiful-3vau5vtfa3qn7k8v.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+
+.container{
+    width: 900px;
+    margin: auto;
+
+}
+
+
+.social-media-icons > a > i{
+    font-size: 30px;
+    color: #2196F3;
+    margin: 15px;
+}
+
+
+
+
+/** demo responsive **/
+
+@media screen and ( max-width: 400px ) {
+    .row{
+        display: block;
+    }
+
+    .row > div{
+        width: 100%;
+    }
+}
+
+

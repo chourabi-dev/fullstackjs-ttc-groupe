@@ -1,0 +1,103 @@
+/*
+
+
+selecteur {
+
+    attr : valeur;
+    attr : valeur;
+    attr : valeur;
+    attr : valeur;
+    ...    
+
+}
+
+
+*/
+
+
+/* select using tagename  */
+/*
+h3 {
+    color: blue;
+    
+}
+
+
+.title{
+    color: orange !important;
+}
+
+.more-size{
+    font-size: 30px;
+}
+
+
+
+#para{
+    color: green;
+}
+
+
+
+.title{
+    color: red !important;
+}
+
+
+
+
+
+
+
+.banner > h3 {
+    color: red;
+}
+
+.banner .likes{
+    color: orange;
+}*/
+
+
+
+
+
+ 
+.x.y{
+    color: green;
+}
+
+.x{
+    color: orange;
+}
+
+
+.list > li:first-child  {
+    color: red;
+}
+
+
+.list > li:last-child  {
+    color: orange;
+}
+
+
+.list > li:nth-child(4)  {
+    color: blue;
+}
+
+
+
+
+
+
+.more{
+    color: #673AB7;
+    font-size: 13px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 8px;
+    line-height: 20px;
+    font-weight: 900;
+   
+    font-family: 'Montserrat', sans-serif;
+}

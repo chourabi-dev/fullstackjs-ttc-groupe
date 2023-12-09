@@ -1,0 +1,44 @@
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.content{
+    width: 200px;
+}
+
+
+.row1{
+    justify-content: space-between;
+}
+
+.col{
+    width: 250px;
+}
+
+.demo{
+    height: 500px; 
+    align-items: end;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+
+.center-parent{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.element{
+    height: 30px;
+    width: 30px;
+    background-color: orange;
+}
