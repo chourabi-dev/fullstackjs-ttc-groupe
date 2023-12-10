@@ -1,0 +1,38 @@
+.content > p > .suite{
+    display: none;
+}
+
+.content > p > .less{
+    display: none;
+}
+
+.more{
+    color: blue;
+}
+.less{
+    color: blue;
+}
+
+
+.avatar{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.avatar.connected{
+    box-shadow: 0px 0px 0px 0px greenyellow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: animate;
+}
+
+@keyframes animate {
+    0% { box-shadow: 0px 0px 0px 0px greenyellow; }
+    50% { box-shadow: 0px 0px 20px 0px greenyellow; } 
+    100% { box-shadow: 0px 0px 0px 0px greenyellow; }
+    
+}
