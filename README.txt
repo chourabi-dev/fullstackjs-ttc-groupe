@@ -15,3 +15,8 @@ free boostrap templates
 2 - start the app 
 
 => npm start
+
+
+3 - add boostrap to project
+
+=> npm i bootstrap
