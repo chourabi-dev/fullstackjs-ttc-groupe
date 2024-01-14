@@ -20,3 +20,11 @@ free boostrap templates
 3 - add boostrap to project
 
 => npm i bootstrap
+
+
+4 - add routing
+
+https://reactrouter.com/en/main
+
+=> npm install react-router-dom
+
