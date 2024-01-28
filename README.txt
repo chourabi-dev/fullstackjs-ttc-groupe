@@ -38,4 +38,6 @@ https://reactrouter.com/en/main
 4 nodemon index => run project with nodemon
 5 npm i body-parser => converrt your request to json bloc
 6 npm i mongodb => add mongodb driver to project
+7 npm i jsonwebtoken => for JWT security
+8 npm i cors
 
